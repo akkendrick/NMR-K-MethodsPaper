@@ -1,0 +1,16 @@
+
+*.txt
+
+*.png
+
+*.ini
+
+*.svg
+
+*.ps
+
+*.mat
+
+TC/TC_optCutoff.fig
+
+*.fig
