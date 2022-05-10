@@ -13,7 +13,7 @@ siteList = [{'Site1-WellG5'}...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Define fitting variables and K range
-m = 0;
+m = 1;
 n = 2;
 Kcutoff = 5*10^-5;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

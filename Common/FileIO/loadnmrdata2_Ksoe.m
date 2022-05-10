@@ -3,7 +3,7 @@ function [d, K, T2ML, phi, z, SumEch, K_SOE, log10K, log10T2, log10Porosity, Sum
     % variables. 
     
     if strcmp(name, 'A1') ==0 && strcmp(name, 'C1') == 0 && strcmp(name, 'all_data') == 0
- baseDir = 'C:\Users\kenta\Dropbox\Research\Alex-Rosemary\Papers\Kmodel_comparision_paper\howTo\Common\';
+       baseDir = 'C:\Users\kenta\Dropbox\Research\Alex-Rosemary\Papers\Kmodel_comparision_paper\howTo\NMR-K-MethodsPaper\Common\';
 
         in=([baseDir filesep 'Field Data' filesep 'Aggregated_data' filesep name '.txt']);               %define the datafile name               %define the datafile name
         d=load(in);                         %load the raw data

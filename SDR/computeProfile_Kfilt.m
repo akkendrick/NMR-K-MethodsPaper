@@ -34,8 +34,8 @@ logPhi_sort = logPhi(ind);
 logK_sort = logK(ind);
 phi_sort = phi(ind);
 
-Kind = Ksort < Kcutoff;
-Kfilt = Ksort(Ksort < Kcutoff);
+Kind = Ksort > Kcutoff;
+Kfilt = Ksort(Ksort > Kcutoff);
 logT2ML_filt = logT2ML_sort(Kind);
 logPhi_filt = logPhi_sort(Kind);
 logK_filt = logK_sort(Kind);

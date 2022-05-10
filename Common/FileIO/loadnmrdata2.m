@@ -4,7 +4,7 @@ function [d, K, T2ML, phi, z, SumEch, log10K, log10T2, log10Porosity, SumEch_3s,
     
     if strcmp(name, 'A1') ==0 && strcmp(name, 'C1') == 0 && strcmp(name, 'all_data') == 0
        %baseDir = '/Volumes/GoogleDrive/My Drive/Stanford/USGS Project/NMR-K-prediction/';
-       baseDir = 'C:\Users\kenta\Dropbox\Research\Alex-Rosemary\Papers\Kmodel_comparision_paper\howTo\Common\';
+       baseDir = 'C:\Users\kenta\Dropbox\Research\Alex-Rosemary\Papers\Kmodel_comparision_paper\howTo\NMR-K-MethodsPaper\Common\';
 
         in=([baseDir filesep 'Field Data' filesep 'Aggregated_data' filesep name '.txt']);               %define the datafile name
         d=load(in);                         %load the raw data

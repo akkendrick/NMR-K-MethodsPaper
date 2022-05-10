@@ -21,7 +21,7 @@ function [T2dist,T2logbins,siteName] = loadRawNMRdata(siteName)
         T2logbins = load(in2)';
     elseif sum(strcmp(siteName,wisc_sites) == 1)
         %rawBaseDir = '/Volumes/GoogleDrive/My Drive/Stanford/USGS Project/Field Data/USGS Data/';
-        rawBaseDir = 'C:\Users\kenta\Dropbox\Research\Alex-Rosemary\Papers\Kmodel_comparision_paper\howTo\Common\Field Data\USGS Data\';
+        rawBaseDir = ['C:\Users\kenta\Dropbox\Research\Alex-Rosemary\Papers\Kmodel_comparision_paper\howTo\NMR-K-MethodsPaper\Common\Field Data\USGS Data\'];
 
         if strcmp(siteName,'Site1-WellG5')
             site = 'Site1-WellG5';
